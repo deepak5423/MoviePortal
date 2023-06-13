@@ -1,0 +1,25 @@
+uuid: ce41aad2-cfa8-40e2-862b-e95839b835c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - bootstrap5
+id: quicktabshomequick
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:home_quick_tab'
+settings:
+  id: 'quicktabs_block:home_quick_tab'
+  label: 'QuickTabs - Home Quick'
+  label_display: '0'
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /recent-lists

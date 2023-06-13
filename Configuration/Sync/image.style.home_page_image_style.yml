@@ -1,0 +1,14 @@
+uuid: f6a6e625-5dda-4f72-845a-96d7b226c90b
+langcode: en
+status: true
+dependencies: {  }
+name: home_page_image_style
+label: 'home page image style'
+effects:
+  fa2e48f8-6df9-4ca8-be96-d1aa966145d9:
+    uuid: fa2e48f8-6df9-4ca8-be96-d1aa966145d9
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100

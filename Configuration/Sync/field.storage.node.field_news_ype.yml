@@ -1,0 +1,20 @@
+uuid: 9b82f2dc-5fe3-41fa-af38-eb2ef3ee2f31
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_news_ype
+field_name: field_news_ype
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

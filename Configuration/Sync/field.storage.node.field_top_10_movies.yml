@@ -1,0 +1,19 @@
+uuid: 3bfb4f92-511a-4974-a00d-5f8da84a14c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_top_10_movies
+field_name: field_top_10_movies
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 10
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

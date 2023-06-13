@@ -1,0 +1,19 @@
+uuid: 2abf0663-a8a7-44dc-820d-9d6237c77509
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_email_add
+id: contact_message.feedback.field_email_add
+field_name: field_email_add
+entity_type: contact_message
+bundle: feedback
+label: 'Email Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

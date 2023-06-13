@@ -1,0 +1,20 @@
+uuid: 292c3fa3-3d32-498d-b111-fffe8ebb9814
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bootstrap5
+id: userlogin_3
+theme: bootstrap5
+region: sidebar_first
+weight: -7
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

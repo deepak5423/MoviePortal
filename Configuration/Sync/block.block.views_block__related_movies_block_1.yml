@@ -1,0 +1,29 @@
+uuid: 6497aa8a-ce8e-435d-8bae-b270ec3cb39f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_movies
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__related_movies_block_1
+theme: bootstrap5
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:related_movies-block_1'
+settings:
+  id: 'views_block:related_movies-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/reviews/*'

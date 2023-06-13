@@ -1,0 +1,15 @@
+uuid: d77caaab-6278-489c-8113-8b2e3d5b4f6c
+langcode: en
+status: true
+dependencies: {  }
+name: genre_movi
+label: 'genre movie'
+effects:
+  afceaa12-e55c-421a-a59f-d981646fdf5e:
+    uuid: afceaa12-e55c-421a-a59f-d981646fdf5e
+    id: image_crop
+    weight: 1
+    data:
+      width: 130
+      height: 100
+      anchor: center-center
