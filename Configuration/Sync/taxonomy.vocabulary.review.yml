@@ -1,0 +1,8 @@
+uuid: 4762f8fc-cc7a-4352-917c-1965338165a2
+langcode: en
+status: true
+dependencies: {  }
+name: Review
+vid: review
+description: 'Movie Review'
+weight: 0

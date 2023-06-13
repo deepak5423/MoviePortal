@@ -1,0 +1,16 @@
+uuid: 0a0ee6fb-2ac7-43d2-98dd-e8d0c7d537a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.movies
+    - node.type.top10list
+  module:
+    - node
+id: movie_manager
+label: 'Movie Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'create movies content'
+  - 'create top10list content'

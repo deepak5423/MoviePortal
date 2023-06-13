@@ -1,0 +1,29 @@
+uuid: 5573dd04-f98f-4cff-889b-668a43e03a10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_top_10_movies
+    - node.type.movies
+    - node.type.top10list
+id: node.top10list.field_top_10_movies
+field_name: field_top_10_movies
+entity_type: node
+bundle: top10list
+label: 'Top 10 Movies'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      movies: movies
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

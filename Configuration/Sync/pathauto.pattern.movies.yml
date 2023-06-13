@@ -1,0 +1,22 @@
+uuid: e4013a2f-a293-438b-92b8-a6ffffcd8df3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: movies
+label: Movies
+type: 'canonical_entities:node'
+pattern: '/reviews/[node:title]'
+selection_criteria:
+  3c6a116d-4228-484c-9a0d-6deacee3fd82:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3c6a116d-4228-484c-9a0d-6deacee3fd82
+    context_mapping:
+      node: node
+    bundles:
+      movies: movies
+selection_logic: and
+weight: -5
+relationships: {  }

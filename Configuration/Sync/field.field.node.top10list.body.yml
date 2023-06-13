@@ -1,0 +1,23 @@
+uuid: 28df2431-c900-4497-a2e8-8fe85ccb7607
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.top10list
+  module:
+    - text
+id: node.top10list.body
+field_name: body
+entity_type: node
+bundle: top10list
+label: 'Why these are in the List'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

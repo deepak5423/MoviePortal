@@ -1,0 +1,31 @@
+uuid: 4c863891-aa20-4fef-81ac-34fdbb63aca0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: genere
+label: Genere
+type: 'canonical_entities:taxonomy_term'
+pattern: '/reviews/[term:name]'
+selection_criteria:
+  3c6a116d-4228-484c-9a0d-6deacee3fd82:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3c6a116d-4228-484c-9a0d-6deacee3fd82
+    context_mapping:
+      node: node
+    bundles:
+      movies: movies
+  9ec8d6ff-2513-49d1-8473-659b99e3b297:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 9ec8d6ff-2513-49d1-8473-659b99e3b297
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      review: review
+selection_logic: and
+weight: -5
+relationships: {  }

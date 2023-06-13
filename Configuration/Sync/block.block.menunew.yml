@@ -1,0 +1,25 @@
+uuid: 3dc853cb-4242-4ffa-9ea7-6d8a6c5245dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.add-a-review
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: menunew
+theme: bootstrap5
+region: nav_branding
+weight: -6
+provider: null
+plugin: 'system_menu_block:add-a-review'
+settings:
+  id: 'system_menu_block:add-a-review'
+  label: 'Menu New'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

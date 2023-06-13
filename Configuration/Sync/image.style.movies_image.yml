@@ -1,0 +1,15 @@
+uuid: cd5a521d-5bb6-49cd-9344-cc1be151dfc9
+langcode: en
+status: true
+dependencies: {  }
+name: movies_image
+label: 'Movies Image'
+effects:
+  f542d257-b5ef-4495-94eb-830ded6b9dee:
+    uuid: f542d257-b5ef-4495-94eb-830ded6b9dee
+    id: image_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center
